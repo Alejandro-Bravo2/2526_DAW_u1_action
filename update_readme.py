@@ -11,6 +11,8 @@ load_dotenv()
 URL_DISCORD_WEBHOOK = os.getenv("URL_WEBHOOK")
 
 
+
+
 def run_tests():
     try:
         subprocess.check_call(["pytest", "-q"])
