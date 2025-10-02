@@ -336,6 +336,12 @@ Con estas extensiones conseguireis:
 
 Este proyecto sirve para aprender a usar GitHub Actions 🚀
 
+## Implementaciones realizadas
+He implementado la mejora de que al realizar push automáticamente el programa enviará una notificación a un webhook de discord informando sobre si han resultado exitosamente los test o no. También he implementado la mejora de que informe mejor sobre la fecha y hora en la que se realizan los test. Para realizer un reporte más detallado sobre los test implementé un sistema en el que guarda en el fichero report.md más información sobre los test.
+
+
+# TESTS
+
 ## 1 Estado de los tests
 ✅ Tests correctos
 ## 1 Estados de los test
