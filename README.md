@@ -358,3 +358,6 @@ Este proyecto sirve para aprender a usar GitHub Actions 🚀
 ## 6 Estados de los test
 **Fecha y hora en la que se realizó este test:** 2025-10-02 08:36:44.106830
 ✅ Tests correctos
+## 7 Estados de los test
+**Fecha y hora en la que se realizó este test:** 2025-10-02 06:47:02.923803
+❌ Tests fallidos
