@@ -23,6 +23,10 @@ jobs:
 
       - name: Instalar dependencias
         run: pip install pytest
+      - name: Instalar dependencias dotenv
+        run: pip install python-dotenv
+      - name: Instalar discord webhook
+        run: discord-webhook
 
       - name: Ejecutar script de tests y actualizar README
         run: python update_readme.py
