@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 👈 IMPORTANTE: permite que el bot pueda hacer commits/push
+  contents: write 
 
 
 jobs:
@@ -27,9 +27,15 @@ jobs:
         run: pip install python-dotenv
       - name: Instalar discord webhook
         run: pip install discord-webhook
+      - name: Instalar documentación
+        run: pip install pydoctor
 
       - name: Ejecutar script de tests y actualizar README
         run: python update_readme.py
+      - name: Crear documentación
+        run: pydoc -w .
+      - name: Mover documentación
+        run: mv ..html doc/index.html
 
       - name: Commit automático del README
         uses: stefanzweifel/git-auto-commit-action@v5
