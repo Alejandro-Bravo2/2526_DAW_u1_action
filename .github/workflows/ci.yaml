@@ -32,10 +32,6 @@ jobs:
 
       - name: Ejecutar script de tests y actualizar README
         run: python update_readme.py
-      - name: Crear documentación
-        run: pydoc -w .
-      - name: Mover documentación
-        run: mv ..html doc/index.html
 
       - name: Commit automático del README
         uses: stefanzweifel/git-auto-commit-action@v5
