@@ -1,3 +1,45 @@
+# Título de la Actividad
+
+## Identificación de la Actividad
+- **ID de la Actividad:** PI: CI/CD y documentación con GitHub Actions
+- **Módulo:** Despliege de aplicaciones web
+- **Unidad de Trabajo:** UD1: Documentación y Control de versiones
+- **Fecha de Creación:** 30/10/2025
+- **Fecha de Entrega:** 5/10/2025
+- **Alumno(s):** 
+  - **Nombre y Apellidos:** Alejandro Bravo Calderon
+  - **Correo electrónico:** abracal@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** abc
+
+## Descripción de la Actividad
+La actividad consiste en configurar un github action para que realize ciertas acciones que tendríamos que realizar nosotros a mano cada vez que realizarámos un cambio.
+
+## Instrucciones de Compilación y Ejecución
+1. **Requisitos Previos:**
+   - python3
+   - Librería de python: discord_webhook
+   - Librería de python: dotenv
+
+3. **Pasos para Ejecutar el Código:**
+   ```
+   pytest -q
+   ```
+## Desarrollo de la Actividad
+### Descripción del Desarrollo
+Se ha abordado la actividad realizando uso de try y except más el programa principal para de esta forma 
+aprender a usar esas funcionalidades en programas del día a día.
+### Código Fuente
+https://github.com/IES-Rafael-Alberti/2425-u2-2-3-excepciones-Alejandro-Bravo2/tree/master/src
+
+## Documentación Adicional
+- **Manual de Usuario:** https://github.com/Alejandro-Bravo2
+
+## Conclusiones
+He aprendido a usar try y except en programas del día a día.
+
+
+---
+
 # 1. Actividad: *GitHub Actions: entendiendo Workflow.*
 
 ## 🎯 Objetivos de aprendizaje
@@ -22,7 +64,7 @@ Partimos de un **repositorio base** que contiene:
 
 ---
 
-## 🔹 Parte 1: Workflow básico. Ya implementado.
+## 🔹 Parte 1: Workflow básico.
 
 1. El alumno clona el repositorio base.
 2. Comprende el contenido del script y del workflow.
